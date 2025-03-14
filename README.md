@@ -1,8 +1,7 @@
-# Suki Tsubaki - Personal Website
-**Hello World! I'm Suki Tsubaki and this is my minimalist personal website showcasing poetry and programming passion.**
-![Screenshot](/assets/images/screenshot.png "Screenshot")
+![Preview](/assets/images/preview.jpg "Preview of the Website")
 
-## Overview
+# Suki Tsubaki - Personal Website
+Hello World! I'm Suki Tsubaki and this is my minimalist personal website showcasing poetry and programming passion.
 
 This repository contains my personal website where I share my Haiku and Tanka poetry collections as well as information about my programming journey. The site features a clean, responsive design with subtle animations and seasonal poetry organized by traditional Japanese calendar divisions.
 
@@ -32,6 +31,7 @@ The website features two poetry collections:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Additional license information:
-* The cherry blossom favicon (🌸) is licensed under CC-BY 4.0 from Twitter Twemoji
-* The profile photo is copyrighted and all rights reserved
+**Additional license information:**
+* The cherry blossom [favicon](assets/favicon) is licensed under CC-BY 4.0 from Twitter Twemoji
+* The base [mockup photo](assets/images/preview.jpg) is from Bongkarn Thanyakij via Pixabay
+* The [profile photo](assets/images/suki-tsubaki.jpeg) is copyrighted and all rights reserved
