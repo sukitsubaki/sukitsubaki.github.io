@@ -394,7 +394,6 @@ footer {
 /* Footer link styling */
 footer a {
     color: var(--primary);
-    font-weight: bold;
 }
 
 footer a:hover {
