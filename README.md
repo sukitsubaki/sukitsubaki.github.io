@@ -29,7 +29,7 @@ The website features two poetry collections:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 **Additional license information:**
 * The cherry blossom [favicon](assets/favicon) is licensed under CC-BY 4.0 from Twitter Twemoji
