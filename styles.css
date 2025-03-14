@@ -4,8 +4,113 @@
  * - Primary: #f2487b (Bright Pink)
  * - Secondary: #48c9f2 (Light Cyan)
  * - Background: #fff
- * - Text: #333
+ * - Text: #121212
  */
+
+/* Font imports */
+@font-face {
+    font-family: 'PTSans';
+    src: url('assets/fonts/PTSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTSans';
+    src: url('assets/fonts/PTSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Rancho';
+    src: url('assets/fonts/Handlee-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Animation definitions */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { 
+        opacity: 0; 
+        transform: translateY(30px);
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInRight {
+    from { 
+        opacity: 0; 
+        transform: translateX(30px);
+    }
+    to { 
+        opacity: 1; 
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from { 
+        opacity: 0; 
+        transform: translateX(-30px);
+    }
+    to { 
+        opacity: 1; 
+        transform: translateX(0);
+    }
+}
+
+@keyframes scaleIn {
+    from { 
+        opacity: 0; 
+        transform: scale(0.9);
+    }
+    to { 
+        opacity: 1; 
+        transform: scale(1);
+    }
+}
+
+@keyframes mosaicReveal {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+        filter: blur(30px) brightness(1.1);
+    }
+    40% {
+        filter: blur(20px) brightness(1.05);
+    }
+    60% {
+        filter: blur(12px) brightness(1.02);
+    }
+    80% {
+        filter: blur(5px) brightness(1.01);
+    }
+    100% {
+        opacity: 1;
+        filter: blur(0) brightness(1);
+    }
+}
+
+@keyframes letterReveal {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 * {
     margin: 0;
@@ -14,24 +119,60 @@
 }
 
 :root {
-    --primary: #f2487b;
+    --primary: #fc2b32; /* f2487b */
     --primary-light: #fde9f1;
-    --secondary: #48c9f2;
+    --secondary: #2bc4fc;
     --secondary-light: #e8f7fe;
-    --text: #333;
-    --text-light: #888;
-    --background: #fff;
+    --black: #181818;
+    --white: #fefefe;
     --border-light: #f0f0f0;
+    
+    /* Animation speeds */
+    --animation-slow: 1.2s;
+    --animation-medium: 0.8s;
+    --animation-fast: 0.5s;
 }
 
 body {
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-family: 'PTSans', 'Trebuchet MS', Arial, sans-serif;
+    text-align: justify;
     line-height: 1.6;
-    color: var(--text);
-    background-color: var(--background);
+    color: var(--black);
+    background-color: var(--white);
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
+    animation: fadeIn var(--animation-slow) ease-out;
+}
+
+/* Link styling */
+a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--primary);
+}
+
+/* Text selection styling */
+::selection {
+    background-color: var(--primary);
+    color: white;
+}
+
+::-moz-selection {
+    background-color: var(--primary);
+    color: white;
+}
+
+/* Prevent image selection */
+img {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .container {
@@ -45,6 +186,7 @@ header {
     position: relative;
 }
 
+/* No animation for h1 elements */
 h1 {
     font-size: 2.5rem;
     font-weight: 300;
@@ -59,6 +201,7 @@ section {
 
 section.active {
     display: block;
+    animation: fadeIn var(--animation-medium) ease-out;
 }
 
 h2 {
@@ -67,7 +210,19 @@ h2 {
     letter-spacing: 2px;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
-    border-bottom: 1px solid var(--primary-light);
+    border-bottom: 1px solid var(--primary);
+    width: 100%; /* Make the border go full width */
+}
+
+/* Animated heading letters - preserve whitespace */
+.letter-animation {
+    white-space: pre; /* Preserve whitespace */
+}
+
+.letter-animation span {
+    display: inline-block;
+    opacity: 0;
+    animation: letterReveal 0.5s ease forwards;
 }
 
 .menu {
@@ -79,12 +234,12 @@ h2 {
 }
 
 .menu-item {
-    color: var(--text-light);
+    color: var(--black);
     text-decoration: none;
     font-size: 0.9rem;
     letter-spacing: 1px;
     padding: 0.3rem 0.5rem;
-    transition: all 0.3s ease;
+    transition: color 0.3s ease;
     position: relative;
 }
 
@@ -100,7 +255,7 @@ h2 {
     transform: translateX(-50%);
     width: 0;
     height: 1px;
-    background-color: var(--primary-light);
+    background-color: var(--primary);
     transition: width 0.3s ease;
 }
 
@@ -108,35 +263,118 @@ h2 {
     width: 80%;
 }
 
-p {
+/* Animate section paragraphs */
+section > p {
     margin-bottom: 1rem;
     line-height: 1.8;
+    opacity: 0;
+    animation: fadeIn var(--animation-fast) ease-out 0.4s forwards;
 }
 
+/* About section with image */
+.about-container {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    margin-top: 1.5rem;
+}
+
+.about-text {
+    flex: 1;
+    opacity: 0;
+    animation: scaleIn var(--animation-medium) ease-out 0.6s forwards;
+}
+
+.about-text p {
+    opacity: 1; /* Override the section > p opacity */
+    animation: none; /* Override the section > p animation */
+}
+
+/* Stagger about paragraphs */
+.about-container:nth-of-type(1) .about-text {
+    animation-delay: 0.6s;
+}
+
+.about-container:nth-of-type(2) .about-text {
+    animation-delay: 0.9s;
+}
+
+.profile-image {
+    flex: 0 0 200px;
+    margin: 0.5rem 0;
+    position: relative;
+    overflow: hidden;
+    /* Isolate from parent container animations */
+    transform: none;
+    opacity: 1;
+    animation: none;
+}
+
+/* Standalone animation for profile image - no movement, just blur effect */
+.profile-image img {
+    width: 100%;
+/*    animation: mosaicReveal var(--animation-slow) ease-out; */
+}
+
+/* Poem animations - scroll triggered */
 .poem {
     margin: 2rem 0;
-    padding: 1.5rem;
+    padding: 1rem;
     background-color: var(--secondary-light);
     border-left: 3px solid var(--secondary);
+    opacity: 0;
+    transform: translateX(30px);
+    transition: transform 0.6s ease, opacity 0.6s ease;
 }
 
+.poem.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* No hover effect for poems */
 .poem-text {
-    font-style: italic;
-    line-height: 2;
+    font-family: 'Rancho', Garamond, serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
     margin-bottom: 0.5rem;
 }
 
 .poem-season {
     text-align: right;
     font-size: 0.8rem;
+    margin-bottom: 0;
     color: var(--primary);
+    position: relative;
+    opacity: 0; /* Start invisible */
+    transition: opacity 0.5s ease; /* Add transition for fade-in effect */
+    transition-delay: 0.3s; /* Delay the transition */
 }
 
-feet {
+.poem.visible .poem-season {
+    opacity: 1; /* Become visible when parent poem is visible */
+}
+
+footer {
+    background-color: var(--primary);
     text-align: center;
-    margin-top: 3rem;
     font-size: 0.8rem;
-    color: var(--text-light);
+    margin-top: 2rem;
+    color: var(--white);
+    opacity: 0;
+    animation: slideUp var(--animation-fast) ease-out 1s forwards;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Footer link styling */
+footer a {
+    color: var(--white);
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: var(--white);
 }
 
 /* Responsive */
@@ -153,5 +391,22 @@ feet {
         flex-direction: column;
         align-items: center;
         gap: 0.8rem;
+    }
+
+    .about-container:first {
+        flex-direction: column-reverse;
+        gap: 1.5rem;
+    }
+
+    .profile-image {
+        flex: 0 0 auto;
+        max-width: 180px;
+        margin: 0 auto;
+    }
+    
+    /* Adjust animation delays for mobile */
+    .about-container:nth-of-type(1),
+    .about-container:nth-of-type(2) {
+        animation-delay: 0.3s;
     }
 }
