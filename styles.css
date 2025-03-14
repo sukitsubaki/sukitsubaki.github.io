@@ -391,6 +391,69 @@ footer {
     overflow: hidden;
 }
 
+
+
+/* Sticky header styles */
+header {
+    position: sticky;
+    top: 0;
+    background-color: var(--white);
+    z-index: 100;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    transition: padding 0.3s ease;
+    margin-bottom: 0; /* Ensure no gap after header */
+}
+
+/* Class for condensed header during scroll */
+header.scrolled h1 {
+    margin-bottom: 0;
+    transition: margin-bottom 0.3s ease;
+}
+
+header.scrolled .menu {
+    margin-top: 0;
+    transition: margin-top 0.3s ease;
+}
+
+/* Default transitions for non-scrolled state */
+h1 {
+    transition: margin-bottom 0.3s ease;
+}
+
+.menu {
+    transition: margin-top 0.3s ease;
+}
+
+/* Sticky section titles */
+section.active h2 {
+    position: sticky;
+    top: calc(header.scrolled ? 100px : 150px); /* Approximate height of condensed header */
+    background-color: var(--white);
+    padding-top: 0.5rem;
+    margin-top: 0;
+    z-index: 90;
+    transition: top 0.3s ease;
+}
+
+/* Create a seamless connection between header and h2 */
+section.active {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+/* Ensure no content can be seen through any potential gap */
+header::after {
+    content: '';
+    position: absolute;
+    bottom: -1px; /* Overlap any potential 1px gap */
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: var(--white);
+    z-index: 95;
+}
+
 /* Footer link styling */
 footer a {
     color: var(--primary);
