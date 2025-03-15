@@ -33,5 +33,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 **Additional license information:**
 * The cherry blossom [favicon](assets/favicon) is licensed under CC-BY 4.0 from Twitter Twemoji
+* The [fonts](assets/fonts) are licensed under OFL 1.1
 * The base [mockup photo](assets/images/preview.jpg) is from Bongkarn Thanyakij via Pixabay
 * The [profile photo](assets/images/suki-tsubaki.jpeg) is copyrighted and all rights reserved
