@@ -1,7 +1,7 @@
 ![Preview](/assets/images/preview.jpg "Preview of the Website")
 
 # Suki Tsubaki - Personal Website
-Hello World! I'm Suki Tsubaki and this is my minimalist personal website showcasing poetry and programming passion.
+Hello World! I'm Suki Tsubaki and this is my minimalist personal website.
 
 This repository contains my personal website where I share my Haiku and Tanka poetry collections as well as information about my programming journey. The site features a clean, responsive design with subtle animations and seasonal poetry organized by traditional Japanese calendar divisions.
 
