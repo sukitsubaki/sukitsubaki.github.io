@@ -1,7 +1,7 @@
 ---
 layout: default
 title: System Architecture
-permalink: /system-architecture/
+permalink: /system-architecture/index.md
 ---
 
 # System Architecture
@@ -15,3 +15,6 @@ Text
     - [{{ post.title }}]({{ post.url }})
   {% endif %}
 {% endfor %}
+
+## Debug
+{{ site.posts.size }}
