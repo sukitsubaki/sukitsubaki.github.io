@@ -13,15 +13,10 @@ layout: default
             <div class="meta-info">
                 <span class="published">
                     Published: <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%Y-%m-%d" }}</time>
-                </span>
-                
-                {% if page.last_updated %}
+                </span><br>{% if page.last_updated %}
                 <span class="last-updated">
                     Last Updated: <time datetime="{{ page.last_updated | date: "%Y-%m-%d" }}">{{ page.last_updated | date: "%Y-%m-%d" }}</time>
-                </span>
-                {% endif %}
-                
-                {% if page.scope %}
+                </span>{% endif %}<br>{% if page.scope %}
                 <span class="post-scope">
                     Topic: <a href="/{{ page.scope | slugify }}">{{ page.scope }}</a>
                 </span>
