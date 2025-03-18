@@ -209,6 +209,10 @@ header {
     padding-bottom: 1rem;
 }
 
+header h1 {
+    border-bottom: none;
+}
+
 nav {
     display: flex;
     justify-content: center;
