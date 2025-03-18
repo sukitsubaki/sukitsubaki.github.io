@@ -78,3 +78,13 @@ a:hover {
 .text-gray { 
     color: var(--color-gray); 
 }
+
+/* Selection Styling */
+::selection {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+img {
+    user-select: none;
+}
