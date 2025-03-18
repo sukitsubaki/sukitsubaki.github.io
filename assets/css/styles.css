@@ -75,10 +75,9 @@
     --primary-light: #fde9f1;
     --secondary: #2b9bfc;
     --secondary-light: #e8f7fe;
-    --tertiary: #ffd23a;
-    --tertiary-light: #fffaeb;
     --black: #121212;
     --white: #fefefe;
+    --gray: #848884;
     --border-light: #f0f0f0;
     
     /* Animation speeds */
@@ -118,6 +117,10 @@ p {
 
 .text-right {
     text-align: right !important;
+}
+
+.text-gray {
+    color: var(--);
 }
 
 /* Blog specific styles */
