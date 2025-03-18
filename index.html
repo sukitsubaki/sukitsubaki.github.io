@@ -10,12 +10,17 @@ title: Home
     </section>
 
     <section class="latest-posts">
-        <h2>recent</h2>h2>
+        <h2>recent</h2>
         {% for post in site.posts limit:3 %}
         <article class="post-preview">
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
             <div class="post-meta">
                 <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
+                {% if post.scope %}
+                <span class="post-scope">
+                    <a href="/{{ post.scope | slugify }}">{{ post.scope }}</a>
+                </span>
+                {% endif %}
             </div>
             <p>{{ post.excerpt }}</p>
         </article>
