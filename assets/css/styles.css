@@ -120,7 +120,7 @@ p {
 }
 
 .text-gray {
-    color: var(--);
+    color: var(--gray);
 }
 
 /* Blog specific styles */
