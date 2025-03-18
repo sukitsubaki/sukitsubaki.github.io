@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Workflow Scaling
+permalink: /work-scaling/
 ---
 
 # Workflow Scaling
