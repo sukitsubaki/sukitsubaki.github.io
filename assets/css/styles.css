@@ -112,20 +112,63 @@ body {
     padding-bottom: 0.5rem;
 }
 
+/* Post meta */
 .post-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: 0.9rem;
     color: #666;
     margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-light);
+    padding-bottom: 0.5rem;
 }
 
-.post-meta .categories a {
+.meta-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.post-meta .published, 
+.post-meta .last-updated, 
+.post-meta .post-scope {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.post-meta .post-scope a {
     color: var(--secondary);
     text-decoration: none;
-    margin-right: 0.5rem;
+    transition: color 0.3s ease;
 }
 
-.post-meta .categories a:hover {
+.post-meta .post-scope a:hover {
+    color: var(--primary);
     text-decoration: underline;
+}
+
+.post-preview .post-meta {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.post-preview .post-meta .post-scope a {
+    font-size: 0.8rem;
+    background-color: var(--secondary-light);
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    color: var(--secondary);
+}
+
+.post-preview .post-meta .post-scope a:hover {
+    background-color: var(--secondary);
+    color: white;
 }
 
 /* Navigation */
