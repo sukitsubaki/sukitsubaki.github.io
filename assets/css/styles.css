@@ -1,10 +1,10 @@
 /* 
  * Suki Tsubaki - Personal Website
  * Color Scheme:
- * - Primary: #f2487b (Bright Pink)
- * - Secondary: #48c9f2 (Light Cyan)
- * - Background: #fff
- * - Text: #121212
+ * - Primary: #f2487b (pink)
+ * - Secondary: #2b9bfc (blue)
+ * - Background: #fefefe (white)
+ * - Text: #121212 (black)
  */
 
 /* Font imports */
@@ -73,11 +73,11 @@
 :root {
     --primary: #fc2b32; 
     --primary-light: #fde9f1;
-    --secondary: #2bc4fc;
+    --secondary: #2b9bfc;
     --secondary-light: #e8f7fe;
     --tertiary: #ffd23a;
     --tertiary-light: #fffaeb;
-    --black: #181818;
+    --black: #121212;
     --white: #fefefe;
     --border-light: #f0f0f0;
     
