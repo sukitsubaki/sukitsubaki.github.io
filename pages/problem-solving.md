@@ -4,7 +4,7 @@ title: Problem Solving
 permalink: /problem-solving/
 ---
 
-# Problem Solving
+## Problem Solving
 
 {% for post in site.posts %}
   {% if post.scope == "Problem Solving" %}
