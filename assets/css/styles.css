@@ -174,10 +174,10 @@ body {
 /* Navigation */
 header {
     text-align: center;
+    font-weight: normal;
     margin-bottom: 3rem;
     position: relative;
     padding-bottom: 1rem;
-    border-bottom: 1px solid var(--primary);
 }
 
 nav {
