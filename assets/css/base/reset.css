@@ -1,28 +1,28 @@
 /* CSS Reset and Global Styles */
 @font-face {
     font-family: 'PTSans';
-    src: url('../fonts/PTSans-Regular.ttf') format('truetype');
+    src: url('../../fonts/PTSans-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'PTSans';
-    src: url('../fonts/PTSans-Bold.ttf') format('truetype');
+    src: url('../../fonts/PTSans-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'PTMono';
-    src: url('../fonts/PTMono-regular.ttf') format('truetype');
+    src: url('../../fonts/PTMono-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: monospace;
 }
 
 @font-face {
     font-family: 'Rancho';
-    src: url('../fonts/Handlee-Regular.ttf') format('truetype');
+    src: url('../../fonts/Handlee-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
