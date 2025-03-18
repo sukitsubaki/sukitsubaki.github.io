@@ -41,6 +41,7 @@ body {
 /* Typography Reset */
 h1, h2, h3, h4, h5 {
     margin-bottom: var(--spacing-sm);
+    text-align: left;
 }
 
 p {
