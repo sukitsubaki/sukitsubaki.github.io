@@ -63,7 +63,7 @@
 }
 
 .post-list__item {
-    margin-bottom: var(--spacing-sm);
+    margin-bottom: 0;
 }
 
 .post-list__title {
