@@ -134,6 +134,10 @@ h1,
     font-family: 'PTMono', 'Courier New', Courier, monospace;
 }
 
+.small {
+    font-size: 0.8rem;
+}
+
 /* Blog specific styles */
 .blog-post {
     margin-bottom: 2rem;
@@ -192,16 +196,24 @@ h1,
     padding-bottom: 0;
 }
 
-.post-list .post-scope a {
-    font-size: 0.8rem;
-    background-color: var(--secondary-light);
-    padding: 0.2rem 0.5rem;
-    border-radius: 3px;
+.post-list .post a {
     color: var(--secondary);
 }
 
+.post-list .post a:hover {
+    color: var(--primary);
+}
+
+.post-list .post-scope a {
+    font-size: 0.8rem;
+    background-color: var(--light-gray);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0px;
+    color: var(--black);
+}
+
 .post-list .post-scope a:hover {
-    background-color: var(--secondary);
+    background-color: var(--dark-gray);
     color: white;
 }
 
@@ -376,12 +388,6 @@ footer p {
     max-width: 800px;
     margin: 0 auto;
     padding: 1rem;
-}
-
-.latest-posts .post-list {
-    margin-bottom: 1.5rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid var(--border-light);
 }
 
 /* Code Blocks */
