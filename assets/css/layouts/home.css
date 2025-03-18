@@ -60,3 +60,32 @@
 .license-container__text {
 
 }
+
+/* Responsive Design for Smartphones */
+@media screen and (max-width: 768px) {
+    .intro-container__about {
+        flex-direction: column;
+        align-items: center;
+        gap: var(--spacing-sm);
+    }
+
+    .intro-container__image {
+        flex: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: var(--spacing-sm);
+    }
+
+    .intro-container__image img {
+        width: 250px;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .intro-container__text {
+        flex: none;
+        width: 100%;
+        text-align: center;
+    }
+}
