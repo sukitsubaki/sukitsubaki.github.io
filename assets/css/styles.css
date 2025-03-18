@@ -235,6 +235,10 @@ a:hover {
     margin-top: 1rem;
 }
 
+.about-me-text {
+    flex: 1;
+}
+
 .about-me-image {
     flex: 0 0 200px;
     margin: 0.5rem 0;
