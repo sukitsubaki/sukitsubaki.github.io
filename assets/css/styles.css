@@ -228,6 +228,23 @@ a:hover {
     color: var(--secondary);
 }
 
+.intro-container {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+.profile-image {
+    flex: 0 0 200px;
+    margin: 0.5rem 0;
+    position: relative;
+    overflow: hidden;
+    transform: none;
+    opacity: 1;
+    animation: none;
+}
+
 /* Haiku and potential unused styles */
 .haiku-text,
 .tanka-text {
