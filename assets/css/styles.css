@@ -338,6 +338,10 @@ footer {
     border-top: 1px solid var(--primary);
 }
 
+footer p {
+    margin: 0;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     body {
