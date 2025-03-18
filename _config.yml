@@ -6,6 +6,12 @@ author: Suki Tsubaki
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title/
 
+# Collections
+collections:
+  topics:
+    output: true
+    permalink: /:collection/:path/
+
 # Defaults
 defaults:
   - scope:
@@ -14,6 +20,11 @@ defaults:
     values:
       layout: "post"
       comments: false
+  - scope:
+      path: ""
+      type: "topics"
+    values:
+      layout: "default"
 
 # Plugins (minimal for GitHub Pages)
 plugins:
