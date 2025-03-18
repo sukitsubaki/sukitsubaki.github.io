@@ -72,6 +72,10 @@
     margin-left: var(--spacing-xs);
 }
 
+.post-list__scope {
+    margin-left: var(--spacing-xs);
+}
+
 .post-list__scope a {
     font-size: var(--text-xs);
     background-color: var(--color-secondary-light);
