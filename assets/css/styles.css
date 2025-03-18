@@ -348,6 +348,5 @@ pre {
 code {
     font-family: 'PTMono', 'Courier New', Courier, monospace;
     font-size: 0.9rem;
-    font-weight: normal;
     color: var(--black);
 }
