@@ -99,6 +99,23 @@ body {
     animation: fadeIn var(--animation-slow) ease-out;
 }
 
+/* Text styling */
+.weight-normal {
+    font-weight: normal
+}
+
+.weight-bold {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
 /* Blog specific styles */
 .blog-post {
     margin-bottom: 2rem;
@@ -174,7 +191,6 @@ body {
 /* Navigation */
 header {
     text-align: center;
-    font-weight: normal;
     margin-bottom: 3rem;
     position: relative;
     padding-bottom: 1rem;
