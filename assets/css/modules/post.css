@@ -69,7 +69,7 @@
 .post-list__scope a {
     font-size: var(--text-xs);
     background-color: var(--color-secondary-light);
-    padding: var(--spacing-xs);
+    padding: var(--spacing-xxs) var(--spacing-xs);
     border-radius: 0;
     color: var(--color-secondary);
 }
