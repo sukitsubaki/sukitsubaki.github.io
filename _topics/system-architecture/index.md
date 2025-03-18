@@ -1,6 +1,7 @@
 ---
 layout: default
 title: System Architecture
+permalink: /system-architecture/
 ---
 
 # System Architecture
