@@ -249,6 +249,9 @@ a:hover {
     animation: none;
 }
 
+.about-me-image img {
+    width: 200px;
+
 /* Haiku and potential unused styles */
 .haiku-text,
 .tanka-text {
