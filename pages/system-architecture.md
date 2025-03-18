@@ -4,7 +4,7 @@ title: System Architecture
 permalink: /system-architecture/
 ---
 
-# System Architecture
+## System Architecture
 
 {% for post in site.posts %}
   {% if post.scope == "System Architecture" %}
