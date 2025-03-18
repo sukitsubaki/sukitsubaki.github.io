@@ -1,7 +1,5 @@
 ![Preview](/assets/images/preview.jpg "Preview of the Website")
 
-**UPDATE:** This website is no longer active, I have a blog about processes and patterns of scaled thinking on that domain now.
-
 # Suki Tsubaki - Personal Website
 Hello World! I'm Suki Tsubaki and this is my minimalist personal website.
 
