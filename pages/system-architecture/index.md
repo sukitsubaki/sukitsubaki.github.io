@@ -1,7 +1,7 @@
 ---
 layout: default
 title: System Architecture
-permalink: /system-architecture/index.md
+permalink: /system-architecture/
 ---
 
 # System Architecture
