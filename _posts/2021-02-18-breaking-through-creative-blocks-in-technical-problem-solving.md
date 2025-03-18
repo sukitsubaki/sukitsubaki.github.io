@@ -6,8 +6,6 @@ last_updated: 2021-04-05
 scope: "Problem Solving"
 ---
 
-# Breaking Through Creative Blocks in Technical Problem Solving
-
 Every developer has experienced that frustrating moment: staring at a complex technical problem, feeling completely stuck. The solution seems just out of reach. The obvious approaches have been tried, similar patterns searched for, documentation consulted—and yet, nothing breaks through. What was once an engaging challenge has become an immovable wall.
 
 These moments of creative blockage in technical work are more than just annoying productivity hiccups. They can lead to project delays, suboptimal solutions born from frustration, and even contribute to burnout when experienced repeatedly.

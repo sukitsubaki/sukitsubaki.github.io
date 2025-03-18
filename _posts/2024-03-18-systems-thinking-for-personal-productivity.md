@@ -5,8 +5,6 @@ date: 2024-03-18
 scope: "Workflow Scaling"
 ---
 
-# Systems Thinking for Personal Productivity
-
 Task management dominates productivity discourse. From simple lists to complex applications, the focus remains consistent: capturing what needs to be done, organizing it effectively, and checking items off as they're completed. This approach feels intuitively correct—if productivity means getting things done, then managing tasks should be its core practice.
 
 Yet experienced knowledge workers often discover a surprising truth: even the most sophisticated task management approaches eventually reveal fundamental limitations. Something essential seems missing from the task-centered paradigm. This missing element isn't a better way to organize tasks, but an entirely different perspective: systems thinking.

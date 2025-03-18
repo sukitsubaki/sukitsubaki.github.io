@@ -6,8 +6,6 @@ last_updated: 2019-10-08
 scope: "System Architecture"
 ---
 
-# In Praise of Technological Simplicity
-
 In an industry that often celebrates complexity—where conference talks showcase intricate architectures, blog posts detail elaborate toolchains, and resumes highlight experience with an alphabet soup of technologies—there's a case to be made for something less flashy but increasingly precious: simplicity.
 
 Through observation of systems of varying complexity, a pattern emerges that's both obvious in retrospect and surprisingly easy to ignore in the moment: simpler solutions tend to be more robust, more maintainable, and often more effective than their complex counterparts. This isn't just a philosophical preference—it's a practical approach that has concrete benefits for both the systems we build and the teams that build them.

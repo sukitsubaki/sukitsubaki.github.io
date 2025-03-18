@@ -5,8 +5,6 @@ date: 2024-01-07
 scope: "Problem Solving"
 ---
 
-# Question Architecture: Designing Inquiries That Lead to Better Solutions
-
 Questions shape thinking more powerfully than answers. While solutions receive the majority of attention in problem-solving discourse, the questions that precede them often determine whether those solutions will be innovative or conventional, comprehensive or narrow, transformative or incremental. The architecture of our questions—their structure, sequence, framing, and underlying assumptions—creates the cognitive environment from which solutions emerge.
 
 Question architecture involves the deliberate design of inquiries to expand thinking, challenge assumptions, reveal new possibilities, and guide exploration toward more valuable outcomes. By developing sophistication in how questions are formulated and sequenced, problem-solvers can dramatically improve both their process and results without requiring additional subject matter expertise or analytical techniques.

@@ -6,8 +6,6 @@ last_updated: 2019-09-22
 scope: "System Architecture"
 ---
 
-# Designing APIs That Developers Actually Want to Use
-
 Good APIs are like well-designed hand tools—they fit naturally in your grip, accomplish their purpose with minimal effort, and eventually feel like an extension of your own capabilities. Poor APIs, on the other hand, are like struggling with a poorly translated instruction manual while assembling furniture with the wrong size Allen wrench.
 
 The experience of building and consuming various APIs—from small internal libraries to public web services—reveals crucial insights about what makes an API genuinely pleasant to use. These insights aren't about the latest architectural styles or protocol choices, but about the fundamental design principles that make interfaces intuitive and productive across any technology.

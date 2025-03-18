@@ -5,8 +5,6 @@ date: 2020-12-07
 scope: "Workflow Scaling"
 ---
 
-# The Architecture of Attention: Designing Environments for Deep Focus
-
 Attention is the fundamental currency of knowledge work. The ability to direct cognitive resources toward complex challenges, sustain concentration despite distractions, and navigate between different forms of mental engagement determines the quality and quantity of intellectual output. Yet this precious resource faces unprecedented challenges in contemporary environments explicitly designed to capture, fragment, and monetize attention.
 
 The most pressing productivity challenge isn't managing tasks or time, but designing environments that support rather than subvert sustained attention. This challenge requires understanding attention not as a simple matter of individual willpower but as a complex interaction between mind and environment—a relationship that can be intentionally designed.

@@ -6,8 +6,6 @@ last_updated: 2022-03-22
 scope: "Documentation"
 ---
 
-# Documentation That Scales: Writing for Growing Projects
-
 The documentation approach that works perfectly for a small project with two contributors often buckles under the weight of a growing codebase with expanding teams. What begins as a simple README gradually fragments into wikis, inline comments, architecture diagrams, and institutional knowledge—rarely evolving systematically to support the project's changing needs.
 
 Many projects struggle through this transition. This article presents strategies for creating documentation that scales alongside projects. This isn't about producing more documentation but designing information architecture that accommodates growth while remaining maintainable.

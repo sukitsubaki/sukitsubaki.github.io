@@ -6,8 +6,6 @@ last_updated: 2014-08-09
 scope: "Problem Solving"
 ---
 
-# Debugging by Writing Things Down
-
 In an age of sophisticated digital tools and complex problem-solving technologies, we often overlook one of the most powerful cognitive techniques: writing things down by hand. Far more than a simple record-keeping method, the act of externalizating our thoughts represents a fundamental approach to understanding complex challenges.
 
 ## Beyond Digital Problem-Solving

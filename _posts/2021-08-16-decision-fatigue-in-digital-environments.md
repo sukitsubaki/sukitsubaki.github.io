@@ -5,8 +5,6 @@ date: 2021-08-16
 scope: "Workflow Scaling"
 ---
 
-# Decision Fatigue in Digital Environments: Creating Spaces for Clear Thinking
-
 The modern digital landscape presents an unprecedented abundance of choices. Each day involves hundreds of micro-decisions: which notification to check, which email to respond to first, which tool to use for a particular task, which information source to trust. This constant decision-making takes a largely invisible but significant toll on cognitive capabilities.
 
 Decision fatigue—the deterioration of decision quality after extended periods of choice-making—has become a defining challenge of knowledge work. Understanding this phenomenon and designing environments that mitigate it can dramatically improve both wellbeing and the quality of important decisions.

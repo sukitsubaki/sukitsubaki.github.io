@@ -6,8 +6,6 @@ last_updated: 2023-01-28
 scope: "System Architecture"
 ---
 
-# Strategic Incompleteness: The Value of Leaving Systems Unfinished
-
 The desire for completeness runs deep in system design. Whether developing software, creating documentation, or establishing organizational processes, the natural tendency is to strive for comprehensive solutions that address every edge case, document every possibility, and provide guidance for every scenario. This completionist impulse seems rational—after all, aren't complete systems better than incomplete ones?
 
 Yet this pursuit of exhaustive solutions often produces diminishing returns and creates unexpected problems. The most elegant and enduring systems frequently incorporate strategic incompleteness—deliberate spaces left undefined, intentional flexibility preserved, and conscious limitations accepted. This isn't haphazard neglect but a sophisticated design approach that recognizes the value of appropriate ambiguity, adaptability, and room for evolution.

@@ -5,8 +5,6 @@ date: 2020-07-10
 scope: "Workflow Scaling"
 ---
 
-# Selective Automation: When and What to Automate
-
 "Automate everything" has become a mantra in modern development circles. From continuous integration and testing to infrastructure provisioning and deployment, automation is often presented as an unqualified good—something to be pursued wherever possible. Yet a more nuanced perspective on when automation truly delivers value is worth considering.
 
 The reality is that automation itself requires investment—in creation, maintenance, and occasionally troubleshooting. Sometimes this investment yields tremendous returns; other times it creates more complexity than it solves. The key is developing judgment about what processes benefit most from automation and which are better left manual.

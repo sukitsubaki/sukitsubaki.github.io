@@ -6,8 +6,6 @@ last_updated: 2016-03-12
 scope: "Workflow Scaling"
 ---
 
-# Why I Abandoned Complex Project Management Tools
-
 There's something seductive about sophisticated project management systems. They promise organization, efficiency, and clarity—a digital solution to the chaos of juggling multiple projects and responsibilities. For years, I was drawn to these promises, installing and configuring increasingly complex tools in search of the perfect system.
 
 Then, I abandoned them all. This wasn't a fleeting decision or a moment of frustration, but a deliberate choice that has significantly improved both my productivity and my relationship with my work.

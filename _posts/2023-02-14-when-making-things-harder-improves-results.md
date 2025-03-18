@@ -6,8 +6,6 @@ last_updated: 2023-10-05
 scope: "Workflow Scaling"
 ---
 
-# When Making Things Harder Improves Results
-
 Modern productivity wisdom emphasizes frictionless experiences. We're consistently encouraged to streamline workflows, remove obstacles, and create the path of least resistance toward our goals. This philosophy has spawned countless tools, techniques, and systems designed to make work as effortless as possible.
 
 Yet this pursuit of ultimate smoothness overlooks a counterintuitive truth: sometimes, friction actually improves results. Certain forms of resistance, thoughtfully introduced into processes, can enhance quality, deepen thinking, and produce more meaningful outcomes. This isn't friction from poor design or unnecessary complication, but intentional friction—deliberately introduced resistance that serves a specific purpose.

@@ -6,8 +6,6 @@ last_updated: 2020-08-15
 scope: "Workflow Scaling"
 ---
 
-# Energy Management vs. Time Management for Developers
-
 Many developers become obsessed with time management—optimizing schedules, minimizing distractions, and squeezing productivity from every available minute. Despite meticulous time tracking and constant efforts to fit more work into each day, periods of stalled progress and diminishing returns often still occur.
 
 A breakthrough comes when focus shifts from managing time to managing energy. This seemingly subtle change can transform not just productivity, but also the relationship with work itself. The insight is simple but profound: an hour of work at peak mental energy accomplishes more than three hours of work when mentally depleted.

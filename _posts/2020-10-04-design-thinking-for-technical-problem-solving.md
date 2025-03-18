@@ -6,8 +6,6 @@ last_updated: 2020-12-19
 scope: "Problem Solving"
 ---
 
-# Design Thinking for Technical Problem Solving
-
 Technical problems are traditionally approached through a logical, linear process: define the issue, analyze it, identify potential solutions, implement the best one. This approach works well for clearly-defined problems with established solution patterns. But what about the messy, ambiguous challenges that increasingly characterize modern development work?
 
 Over the past two years, I've been experimenting with applying design thinking—a methodology typically associated with product development and user experience—to purely technical problem solving. The results have been transformative, leading to more innovative solutions, better alignment with actual needs, and ultimately more successful outcomes.

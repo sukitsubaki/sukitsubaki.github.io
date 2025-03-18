@@ -5,8 +5,6 @@ date: 2022-08-16
 scope: "Documentation"
 ---
 
-# Documentation as Conversation: Beyond Static Knowledge Repositories
-
 Documentation traditionally evokes images of static artifacts—carefully crafted manuscripts that capture knowledge at a specific moment in time. This model served well in slower-moving environments where information remained stable for extended periods. However, in contemporary contexts where understanding evolves rapidly and continuously, this static approach increasingly falls short.
 
 A more effective paradigm views documentation not as an artifact but as a conversation—an ongoing dialogue between knowledge creators and consumers that evolves organically over time. This shift transforms documentation from something that is produced to something that is participated in, with profound implications for how knowledge flows through organizations and communities.

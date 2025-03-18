@@ -6,8 +6,6 @@ last_updated: 2019-01-10
 scope: "Problem Solving"
 ---
 
-# Understanding Complexity: The Art of Structured Thinking
-
 Complexity surrounds us. Whether tackling a challenging project, navigating a personal decision, or understanding a complex system, our ability to break down and comprehend intricate challenges defines our effectiveness.
 
 ## The Challenge of Complex Systems

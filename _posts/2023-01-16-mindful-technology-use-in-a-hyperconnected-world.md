@@ -5,8 +5,6 @@ date: 2023-01-16
 scope: "Workflow Scaling"
 ---
 
-# Mindful Technology Use in a Hyperconnected World
-
 In an era of constant connectivity, technology has become both our most powerful tool and our most persistent distraction. The line between enhancement and overwhelm grows increasingly blurred, challenging us to develop a more intentional relationship with the digital landscape.
 
 ## The Connectivity Paradox

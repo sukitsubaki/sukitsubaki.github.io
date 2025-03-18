@@ -6,8 +6,6 @@ last_updated: 2020-12-19
 scope: "Problem Solving"
 ---
 
-# The Art of Creative Problem Solving: Beyond Technical Boundaries
-
 Challenges don't care about our expertise. They emerge in unexpected places, defy our initial understanding, and demand more than just technical knowledge. What transforms a persistent problem into an elegant solution isn't just skill—it's a way of thinking.
 
 ## The Limitations of Conventional Problem Solving

@@ -1,4 +1,10 @@
-# Learning New Skills Without Getting Overwhelmed
+---
+layout: post
+title: "Learning New Skills Without Getting Overwhelmed"
+date: 2014-11-03
+last_updated: 2014-12-01
+scope: "Problem Solving"
+---
 
 The modern development landscape moves at a staggering pace. New frameworks launch weekly, programming paradigms rise and fall, and yesterday's best practices become today's antipatterns. For those who love creating with code, this constant evolution is simultaneously exciting and exhausting.
 

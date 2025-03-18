@@ -5,8 +5,6 @@ date: 2021-03-15
 scope: "Workflow Scaling"
 ---
 
-# The Art of Digital Deceleration in the Tech World
-
 In a world that celebrates constant connectivity and rapid technological advancement, the idea of slowing down might seem counterintuitive. Yet the practice of intentional deceleration is not about stopping progress—it's about creating more meaningful and sustainable engagement with technology.
 
 ## The Acceleration Trap

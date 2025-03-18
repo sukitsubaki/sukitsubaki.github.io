@@ -6,8 +6,6 @@ last_updated: 2017-01-22
 scope: "Documentation"
 ---
 
-# Documentation Habits That Save Future You
-
 There's a familiar moment that most developers experience: returning to a project after months away and feeling like you're reading code written by a stranger. You stare at functions and wonder what they do, why they were written that way, and what assumptions they make. That stranger, of course, is past you—and they've left you a puzzle to solve.
 
 Over the years, I've developed documentation habits that have saved me countless hours of rediscovery and head-scratching. These aren't about formal documentation systems or rigid processes—they're simple practices that create a trail of breadcrumbs for future you to follow.

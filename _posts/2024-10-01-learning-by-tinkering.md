@@ -5,8 +5,6 @@ date: 2024-10-01
 scope: "Problem Solving"
 ---
 
-# Learning by Tinkering: The Raspberry Pi as a Pedagogical Playground
-
 In an age of prepackaged digital experiences, the Raspberry Pi represents something radical: a small, affordable computer that transforms learning from passive consumption to active exploration. It's more than just a device—it's an invitation to curiosity, a toolkit for understanding, and a portal to creative discovery.
 
 ## The Lost Art of Tinkering

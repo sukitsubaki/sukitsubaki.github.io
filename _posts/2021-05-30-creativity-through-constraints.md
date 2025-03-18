@@ -5,8 +5,6 @@ date: 2021-05-30
 scope: "Problem Solving"
 ---
 
-# Creativity Through Constraints: How Limited Resources Foster Innovation
-
 Constraints are often viewed as obstacles, but in the world of technology and problem-solving, they can be powerful catalysts for creativity. When resources are limited, minds are forced to think differently, leading to innovative solutions that might never emerge in an environment of abundance.
 
 ## The Counterintuitive Nature of Constraints

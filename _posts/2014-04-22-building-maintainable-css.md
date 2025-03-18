@@ -6,8 +6,6 @@ last_updated: 2017-11-15
 scope: "System Architecture"
 ---
 
-# Building Maintainable CSS: The Module Pattern
-
 CSS seems simple on the surface—selectors, properties, values—how complex could it get? Yet anyone who has maintained a large website knows the truth: CSS can quickly become a tangled mess of specificity conflicts, unexpected inheritance, and redundant declarations. What starts as clean code devolves into a fragile system where changes in one place break layouts in another.
 
 After struggling with unwieldy stylesheets for years, I've found that a modular approach provides the structure and predictability that CSS otherwise lacks. Today I want to share the practical system I've developed for writing modular CSS that scales smoothly from small projects to large ones.

@@ -5,8 +5,6 @@ date: 2020-06-21
 scope: "System Architecture"
 ---
 
-# Minimalist System Design: Less Components, More Resilience
-
 In a technological landscape that celebrates complexity, there exists a counterintuitive truth: the most resilient systems are often the simplest. While the instinct to add features, components, and layers of abstraction can be overwhelming, the discipline of removing unnecessary complexity may be the most valuable design skill of all.
 
 ## The Complexity Paradox

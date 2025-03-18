@@ -6,8 +6,6 @@ last_updated: 2019-04-25
 scope: "Workflow Scaling"
 ---
 
-# Effective Pair Programming for Small Teams
-
 Among the many collaborative development practices that have emerged over the years, pair programming remains one of the most polarizing. For some teams, it's an essential practice that improves code quality and knowledge sharing. For others, it feels awkward, inefficient, or simply impractical—especially in small teams where resources are already stretched thin.
 
 Pair programming in various contexts—from two-person freelance projects to small startups—often requires adaptation for smaller teams. What works at a large tech company with dedicated pairing stations and flexible staffing may not translate directly to a resource-constrained environment.

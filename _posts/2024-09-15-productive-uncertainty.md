@@ -5,8 +5,6 @@ date: 2024-09-15
 scope: "Problem Solving"
 ---
 
-# Productive Uncertainty: Leveraging the Unknown in Problem Solving
-
 Certainty feels reassuring. It provides clear direction, enables confident action, and removes the discomfort of ambiguity. This natural preference for certainty permeates problem-solving approaches, where uncertainty is typically viewed as an obstacle to be eliminated as quickly as possible.
 
 Yet this rush to certainty creates subtle but significant costs. Premature resolution of uncertainty often leads to shallow understanding, overlooked possibilities, and solutions that address symptoms rather than underlying dynamics.

@@ -6,8 +6,6 @@ last_updated: 2019-07-08
 scope: "Workflow Scaling"
 ---
 
-# The Selective Automation Mindset
-
 "Automate everything" has become a mantra in software development circles. Continuous integration, deployment pipelines, testing, infrastructure provisioning—automation promises to eliminate manual work, reduce errors, and free developers to focus on creative problems rather than repetitive tasks.
 
 Yet despite its obvious benefits, automation comes with hidden costs and trade-offs that are rarely discussed. A more nuanced approach called "selective automation" offers a thoughtful alternative—being intentional about what, when, and how to automate.

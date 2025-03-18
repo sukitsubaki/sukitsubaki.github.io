@@ -6,8 +6,6 @@ last_updated: 2021-02-10
 scope: "Documentation"
 ---
 
-# Minimalistic Wiki Design for Maximum Usability
-
 Internal wikis begin with the best intentions—centralized knowledge, collaborative documentation, and shared understanding. Yet so many end up as confusing labyrinths of outdated information, inconsistent structures, and hard-to-find content. Years of experience with documentation systems reveal that the most successful wikis follow a core principle: deliberate minimalism.
 
 This doesn't mean creating less documentation, but rather designing systems that maximize clarity and findability while minimizing maintenance burden and cognitive overhead.

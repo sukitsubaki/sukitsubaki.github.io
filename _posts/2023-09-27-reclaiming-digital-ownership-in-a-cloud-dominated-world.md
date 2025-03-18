@@ -6,8 +6,6 @@ last_updated: 2024-05-12
 scope: "System Architecture"
 ---
 
-# Reclaiming Digital Ownership in a Cloud-Dominated World
-
 When was the last time users truly owned something digital? Not just used a service, but genuinely controlled their own data, tools, and creative work?
 
 In the past decade, society has sleepwalked into a digital landscape where the most personal information lives on servers owned by massive corporations. Documents, photos, creative projects, and personal memories have migrated from personal devices to abstract "clouds" controlled by companies with shifting priorities and business models.

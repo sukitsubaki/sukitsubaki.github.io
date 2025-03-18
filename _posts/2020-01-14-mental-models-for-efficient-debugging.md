@@ -5,8 +5,6 @@ date: 2020-01-14
 scope: "Problem Solving"
 ---
 
-# Mental Models for Efficient Debugging
-
 Debugging is often approached as a technical skill—mastering debuggers, logging tools, and testing frameworks. Yet the most effective debugging is less about technical tools and more about how problems are conceptualized. The mental models used when approaching a bug can dramatically affect how quickly and effectively it is resolved.
 
 Through experience with bugs ranging from the mundane to the mysterious, specific thinking frameworks consistently lead to more efficient debugging sessions and more robust solutions. These aren't about specific technologies, but about how to approach the debugging process itself.

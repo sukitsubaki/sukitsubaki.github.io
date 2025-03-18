@@ -6,8 +6,6 @@ last_updated: 2020-04-18
 scope: "Workflow Scaling"
 ---
 
-# Maintaining Passion for Side Projects
-
 The familiar pattern haunts many developers: an exciting new idea sparks a flurry of intense coding sessions. For days or weeks, you're immersed in the thrill of creation, watching your vision take shape. Then, gradually, the momentum fades. The project that once consumed your thoughts now sits neglected in a folder, another entry in the graveyard of unfinished side projects.
 
 I've been there more times than I care to admit. However, over the past few years, I've developed strategies that have helped me maintain passion for my personal projects and see them through to completion. This isn't about productivity hacks or rigid discipline—it's about creating sustainable enthusiasm that survives the inevitable dips in motivation.

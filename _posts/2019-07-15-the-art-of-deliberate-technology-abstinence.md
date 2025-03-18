@@ -5,8 +5,6 @@ date: 2019-07-15
 scope: "System Architecture"
 ---
 
-# The Art of Deliberate Technology Abstinence
-
 In an industry characterized by constant innovation and a flood of new tools, one essential skill is often overlooked: the decision to *not* adopt certain technologies. While the temptation exists to incorporate every new framework, library, or service into our projects, this approach frequently leads to unnecessary complexity, increased maintenance costs, and mounting technical debt.
 
 Deliberate abstinence is sometimes the key to more sustainable, maintainable, and ultimately successful projects.

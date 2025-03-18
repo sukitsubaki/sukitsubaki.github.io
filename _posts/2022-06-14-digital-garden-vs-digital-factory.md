@@ -6,8 +6,6 @@ last_updated: 2023-04-08
 scope: "Workflow Scaling"
 ---
 
-# Digital Garden vs. Digital Factory: Two Models of Knowledge Work
-
 Knowledge work environments typically follow one of two metaphorical models: the digital garden or the digital factory. These aren't merely different organizational styles but fundamentally distinct paradigms that shape thinking, create different outputs, and foster entirely different relationships with information and ideas.
 
 The factory model has dominated professional environments for decades—emphasizing linear processes, standardized outputs, efficiency metrics, and production schedules. This approach extends industrial-age thinking into knowledge work, treating information and ideas as raw materials to be processed into finished products according to predetermined specifications.

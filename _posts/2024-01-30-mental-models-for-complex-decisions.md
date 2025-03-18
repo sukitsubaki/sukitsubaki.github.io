@@ -5,8 +5,6 @@ date: 2024-01-30
 scope: "Problem Solving"
 ---
 
-# Mental Models for Complex Decisions: Navigating Uncertainty with Clarity
-
 In a world of increasing complexity, the ability to make clear decisions amid uncertainty has become a critical skill. Mental models offer a powerful approach—simple yet profound frameworks that help transform overwhelming complexity into manageable insights.
 
 ## The Decision-Making Challenge

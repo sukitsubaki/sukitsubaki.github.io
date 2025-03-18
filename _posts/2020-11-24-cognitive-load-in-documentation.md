@@ -6,8 +6,6 @@ last_updated: 2023-02-18
 scope: "Documentation"
 ---
 
-# Cognitive Load in Documentation: How to Write for Human Memory Limitations
-
 Documentation exists to transfer knowledge from one mind to another. Yet this transfer must navigate the constraints of human cognition—our limited working memory, selective attention, and varied processing abilities. The most comprehensive documentation fails if it overwhelms the cognitive capacity of its readers.
 
 Understanding cognitive load—the mental effort required to process information—transforms documentation from mere content delivery into effective knowledge transfer.

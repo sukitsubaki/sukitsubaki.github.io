@@ -5,8 +5,6 @@ date: 2020-04-08
 scope: "Problem Solving"
 ---
 
-# The Value of Slow Programming in a Fast-Paced World
-
 In a development culture that celebrates speed—rapid iterations, quick deployments, and fast-paced development cycles—a seemingly contrarian approach is worth exploring: slow programming. This isn't about being less productive or missing deadlines, but rather about being more deliberate, thoughtful, and measured in how code is written and systems are built.
 
 The results of this shift can be surprising. Projects approached with "slow programming" principles often require less rework, accumulate less technical debt, and ultimately progress more smoothly than those rushed to completion.

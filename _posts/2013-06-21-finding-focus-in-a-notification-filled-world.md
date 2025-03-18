@@ -6,8 +6,6 @@ last_updated: 2016-11-30
 scope: "Workflow Scaling"
 ---
 
-# Finding Focus in a Notification-Filled World
-
 The modern developer's environment is a cacophony of interruptions. Email notifications, chat messages, social media alerts, text messages, app updates, and meeting reminders create a never-ending stream of distraction. Many professionals have been experimenting with methods to reclaim attention without becoming digital hermits—finding that elusive balance between connectivity and focus.
 
 What begins as a productivity quest quickly becomes something more fundamental: a search for a healthier relationship with technology and a more intentional approach to work and creativity.

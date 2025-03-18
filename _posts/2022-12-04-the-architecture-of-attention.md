@@ -6,8 +6,6 @@ last_updated: 2014-11-03
 scope: "Workflow Scaling"
 ---
 
-# The Architecture of Attention: Designing Environments for Deep Focus
-
 Attention is the fundamental currency of knowledge work. The ability to direct cognitive resources toward complex challenges, sustain concentration despite distractions, and navigate between different forms of mental engagement determines the quality and quantity of intellectual output.
 
 ## The Ecology of Attention
