@@ -20,7 +20,7 @@
 }
 
 .site-header__link,
-.site-header__link:hover{
+.site-header__link:hover {
     color: inherit;
     text-decoration: none;
 }
