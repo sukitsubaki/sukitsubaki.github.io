@@ -4,7 +4,7 @@ title: Documentation
 permalink: /documentation/
 ---
 
-# Documentation
+## Documentation
 
 {% for post in site.posts %}
   {% if post.scope == "Documentation" %}
