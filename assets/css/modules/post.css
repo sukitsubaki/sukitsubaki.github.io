@@ -1,8 +1,8 @@
 /* Individual Post Title Styles */
-#system-architecture h1,
-#workflow-scaling h1,
-#problem-solving h1,
-#documentation h1 {
+#system-architecture,
+#workflow-scaling,
+#problem-solving,
+#documentation {
     font-size: 1.5rem;
     border-bottom: 1px solid var(--primary);
 }
