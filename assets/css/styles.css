@@ -228,14 +228,14 @@ a:hover {
     color: var(--secondary);
 }
 
-.intro-container {
+.about-me {
     display: flex;
     gap: 2rem;
     align-items: flex-start;
     margin-top: 1rem;
 }
 
-.profile-image {
+.about-me-image {
     flex: 0 0 200px;
     margin: 0.5rem 0;
     position: relative;
