@@ -1,0 +1,30 @@
+/* Footer Module Styles */
+.site-footer {
+    text-align: center;
+    font-size: var(--text-xs);
+    margin-top: var(--spacing-lg);
+    padding: var(--spacing-sm) 0;
+    border-top: 1px solid var(--color-primary);
+}
+
+.site-footer__content {
+    margin: 0;
+}
+
+.site-footer__links {
+    display: inline-flex;
+    gap: var(--spacing-sm);
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--spacing-xs);
+}
+
+.site-footer__link {
+    color: var(--color-secondary);
+    transition: color var(--transition-standard);
+}
+
+.site-footer__link:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+}

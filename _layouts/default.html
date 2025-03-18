@@ -4,31 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
     {% feed_meta %}
     {% seo %}
 </head>
 <body>
-    <header>
-            <a href="https://sukitsubaki.github.io"><h1 class="weight-normal">椿 すき</h1>
-            <a href="https://sukitsubaki.github.io"><h1 class="weight-normal">TSUBAKI 💮 SUKI</h1></a>
-            <nav class="menu">
-                <a href="/" class="menu-item">root</a>
-                <a href="/system-architecture" class="menu-item">System Architecture</a>
-                <a href="/workflow-scaling" class="menu-item">Workflow Scaling</a>
-                <a href="/problem-solving" class="menu-item">Problem Solving</a>
-                <a href="/documentation" class="menu-item">Documentation</a>
-            </nav>
-        </header>
+    <header class="site-header">
+        <a href="https://sukitsubaki.github.io">
+            <h1 class="site-header__title text-weight-normal">椿 すき</h1>
+            <h1 class="site-header__subtitle text-weight-normal">TSUBAKI 💮 SUKI</h1>
+        </a>
+        <nav class="site-nav">
+            <a href="/" class="site-nav__item">root</a>
+            <a href="/system-architecture" class="site-nav__item">System Architecture</a>
+            <a href="/workflow-scaling" class="site-nav__item">Workflow Scaling</a>
+            <a href="/problem-solving" class="site-nav__item">Problem Solving</a>
+            <a href="/documentation" class="site-nav__item">Documentation</a>
+        </nav>
+    </header>
+
     <main>
         {{ content }}
     </main>
 
-    <footer>
-        <p>
-            Texts licensed under <a href="https://creativecommons.org/licenses/by-nd/4.0/" target="_blank">CC BY-ND 4.0</a>. Share freely with attribution, no modifications allowed.<br>
-            <a href="https://github.com/sukitsubaki" target="_blank">{{ site.author }}</a> &lt;/&gt; Hosted on <a href="https://github.com/sukitsubaki/sukitsubaki.github.io" target="_blank">GitHub</a>
+    <footer class="site-footer">
+        <p class="site-footer__content">
+            Texts licensed under <a href="https://creativecommons.org/licenses/by-nd/4.0/" target="_blank">CC BY-ND 4.0</a>. Share freely with attribution, no modifications allowed.
         </p>
+        <div class="site-footer__links">
+            <a href="https://github.com/sukitsubaki" target="_blank" class="site-footer__link">{{ site.author }}</a> 
+            Hosted on 
+            <a href="https://github.com/sukitsubaki/sukitsubaki.github.io" target="_blank" class="site-footer__link">GitHub</a>
+        </div>
     </footer>
 </body>
 </html>

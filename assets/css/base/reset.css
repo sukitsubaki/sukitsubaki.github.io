@@ -1,0 +1,86 @@
+/* CSS Reset and Global Styles */
+@font-face {
+    font-family: 'PTSans';
+    src: url('../fonts/PTSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTSans';
+    src: url('../fonts/PTSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTMono';
+    src: url('../fonts/PTMono-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: monospace;
+}
+
+@font-face {
+    font-family: 'Rancho';
+    src: url('../fonts/Handlee-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-primary);
+    text-align: justify;
+    line-height: 1.6;
+    color: var(--color-black);
+    background-color: var(--color-white);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--spacing-lg);
+    animation: fadeIn var(--animation-speed-slow) ease-out;
+}
+
+/* Typography Reset */
+h1, h2, h3, h4, h5 {
+    margin-bottom: var(--spacing-sm);
+}
+
+p {
+    margin: var(--spacing-sm) 0;
+}
+
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: color var(--transition-standard);
+}
+
+a:hover {
+    color: var(--color-secondary);
+}
+
+/* Utility Typography Classes */
+.text-small { 
+    font-size: var(--text-xs); 
+}
+
+.text-monospace { 
+    font-family: var(--font-monospace); 
+}
+
+.text-center { 
+    text-align: center; 
+}
+
+.text-right { 
+    text-align: right; 
+}
+
+.text-gray { 
+    color: var(--color-gray); 
+}

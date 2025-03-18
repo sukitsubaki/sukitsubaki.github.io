@@ -1,0 +1,41 @@
+/* Base variables for consistent styling */
+:root {
+    /* Color Palette */
+    --color-primary: #fc2b32; 
+    --color-primary-light: #fde9f1;
+    --color-secondary: #2b9bfc;
+    --color-secondary-light: #e8f7fe;
+    
+    /* Neutral Colors */
+    --color-black: #121212;
+    --color-white: #fefefe;
+    --color-gray: #848884;
+    --color-dark-gray: #36454f;
+    --color-light-gray: #e5e4e2;
+    --color-border-light: #f0f0f0;
+    
+    /* Typography */
+    --font-primary: 'PTSans', 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    --font-monospace: 'PTMono', 'Courier New', Courier, monospace;
+    --font-accent: 'Rancho', Garamond, serif;
+    
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    
+    /* Typography Sizes */
+    --text-xs: 0.8rem;
+    --text-sm: 0.9rem;
+    --text-base: 1rem;
+    --text-lg: 1.2rem;
+    
+    /* Animation */
+    --animation-speed-slow: 1.2s;
+    --animation-speed-medium: 0.8s;
+    --animation-speed-fast: 0.5s;
+    
+    /* Transitions */
+    --transition-standard: 0.3s ease;
+}

@@ -5,24 +5,24 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     // Menu navigation
-    const menuItems = document.querySelectorAll('.menu-item');
+    const menuItems = document.querySelectorAll('.site-nav__item');
     const sections = document.querySelectorAll('section');
-    const header = document.querySelector('header');
+    const header = document.querySelector('.site-header');
     
     menuItems.forEach(item => {
         item.addEventListener('click', function(e) {
             e.preventDefault();
             
             // Remove active class from all menu items and sections
-            menuItems.forEach(m => m.classList.remove('active'));
-            sections.forEach(s => s.classList.remove('active'));
+            menuItems.forEach(m => m.classList.remove('site-nav__item--active'));
+            sections.forEach(s => s.classList.remove('section--active'));
             
             // Add active class to clicked menu item
-            this.classList.add('active');
+            this.classList.add('site-nav__item--active');
             
             // Show corresponding section
             const targetId = this.getAttribute('href').substring(1);
-            document.getElementById(targetId).classList.add('active');
+            document.getElementById(targetId).classList.add('section--active');
             
             // Initialize scroll animations for the newly active section
             initScrollAnimations();
@@ -39,9 +39,9 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Add 'scrolled' class to header when page is scrolled
         if (scrollPosition > 50) {
-            header.classList.add('scrolled');
+            header.classList.add('site-header--scrolled');
         } else {
-            header.classList.remove('scrolled');
+            header.classList.remove('site-header--scrolled');
         }
         
         // Update sticky h2 position based on header height
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Function to update sticky h2 positions
     function updateStickyHeadings() {
-        const activeSection = document.querySelector('section.active');
+        const activeSection = document.querySelector('section.section--active');
         if (!activeSection) return;
         
         const heading = activeSection.querySelector('h2');
@@ -65,14 +65,14 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Letter animation for h2 headings
     function animateHeadings() {
-        const headings = document.querySelectorAll('.active h2');
+        const headings = document.querySelectorAll('.section--active h2');
         
         headings.forEach(heading => {
             // Skip if already animated
-            if (heading.classList.contains('letter-animation')) return;
+            if (heading.classList.contains('heading--animated')) return;
             
             // Add animation class
-            heading.classList.add('letter-animation');
+            heading.classList.add('heading--animated');
             
             // Get the text content
             const text = heading.textContent;
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Scroll animation
     function initScrollAnimations() {
-        const poems = document.querySelectorAll('.active .poem');
+        const poems = document.querySelectorAll('.section--active .poem');
         
         // Create Intersection Observer
         const observer = new IntersectionObserver((entries) => {
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     const delay = index * 100; // 100ms between each poem
                     
                     setTimeout(() => {
-                        entry.target.classList.add('visible');
+                        entry.target.classList.add('poem--visible');
                     }, delay);
                     
                     // Stop observing after animation is triggered

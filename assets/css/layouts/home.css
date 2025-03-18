@@ -1,0 +1,42 @@
+/* Home Page Layout Styles */
+.home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--spacing-sm);
+}
+
+.intro-container {
+    margin-bottom: var(--spacing-lg);
+}
+
+.intro-container__about {
+    display: flex;
+    gap: var(--spacing-lg);
+    align-items: flex-start;
+    margin-top: var(--spacing-sm);
+}
+
+.intro-container__text {
+    flex: 1;
+}
+
+.intro-container__image {
+    flex: 0 0 200px;
+    margin: var(--spacing-xs) 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.intro-container__image img {
+    width: 200px;
+    height: auto;
+}
+
+.latest-posts {
+    margin-top: var(--spacing-lg);
+}
+
+.latest-posts__title {
+    border-bottom: 1px solid var(--color-primary);
+    padding-bottom: var(--spacing-xs);
+}

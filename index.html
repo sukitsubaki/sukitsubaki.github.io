@@ -1,18 +1,13 @@
----
-layout: default
-title: Home
----
-
 <div class="home-container">
     <section class="intro-container">
         <h1>hello, world</h1>
-        <div class="about-me">
-            <div class="about-me-text">
+        <div class="intro-container__about">
+            <div class="intro-container__text">
                 <p style="margin: 0.05rem 0">
                     <strong>The art of scaled thinking and systematic growth</strong> – let's explore together! I'm Suki&nbsp;Tsubaki, a passionate hobby developer with an affinity for elegant solutions and minimalist design. I write about <strong>processes and patterns</strong> casually. My journey began when I discovered the magic of coding as a child, tinkering with simple programs that sparked a lifelong fascination with technology. Today, I work with CSS, HTML, PHP, Python, and TypoScript while continually trying to my JavaScript, Lua, SQL, and Swift abilities across various personal projects. <span class="text-gray">#scaleMindfully</span>
                 </p>
             </div>
-            <div class="about-me-image">
+            <div class="intro-container__image">
                 <img src="assets/images/suki-tsubaki.jpeg" alt="Suki Tsubaki">
             </div>
         </div>
@@ -25,11 +20,14 @@ title: Home
     </section>
 
     <section class="latest-posts">
-        <h2>Recent articles</h2>
+        <h2 class="latest-posts__title">Recent articles</h2>
         {% for post in site.posts limit:10 %}
-        <article class="post-list">
-            <span class="date monospace small">{{ post.date | date: "%Y-%m-%d" }}</span> <span class="post"><a href="{{ post.url }}">{{ post.title }}</a></span> {% if post.scope %}<span class="post-scope"><a href="/{{ post.scope | slugify }}">{{ post.scope }}</a></span>{% endif %}
-            <!--<p>{{ post.excerpt }}</p>-->
+        <article class="post-list__item">
+            <span class="text-small monospace">{{ post.date | date: "%Y-%m-%d" }}</span> 
+            <span class="post-list__title"><a href="{{ post.url }}">{{ post.title }}</a></span> 
+            {% if post.scope %}
+            <span class="post-list__scope"><a href="/{{ post.scope | slugify }}">{{ post.scope }}</a></span>
+            {% endif %}
         </article>
         {% endfor %}
     </section>
