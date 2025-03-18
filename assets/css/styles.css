@@ -1,0 +1,285 @@
+/* 
+ * Suki Tsubaki - Personal Website
+ * Color Scheme:
+ * - Primary: #f2487b (Bright Pink)
+ * - Secondary: #48c9f2 (Light Cyan)
+ * - Background: #fff
+ * - Text: #121212
+ */
+
+/* Font imports */
+@font-face {
+    font-family: 'PTSans';
+    src: url('../fonts/PTSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTSans';
+    src: url('../fonts/PTSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTMono';
+    src: url('../fonts/PTMono-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: monospace;
+}
+
+@font-face {
+    font-family: 'Rancho';
+    src: url('../fonts/Handlee-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Animation definitions */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { 
+        opacity: 0; 
+        transform: translateY(30px);
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0);
+    }
+}
+
+@keyframes lineGrow {
+    from { 
+        transform: scaleX(0);
+        opacity: 0;
+    }
+    to { 
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #fc2b32; 
+    --primary-light: #fde9f1;
+    --secondary: #2bc4fc;
+    --secondary-light: #e8f7fe;
+    --tertiary: #ffd23a;
+    --tertiary-light: #fffaeb;
+    --black: #181818;
+    --white: #fefefe;
+    --border-light: #f0f0f0;
+    
+    /* Animation speeds */
+    --animation-slow: 1.2s;
+    --animation-medium: 0.8s;
+    --animation-fast: 0.5s;
+}
+
+body {
+    font-family: 'PTSans', 'Trebuchet MS', Arial, sans-serif;
+    text-align: justify;
+    line-height: 1.6;
+    color: var(--black);
+    background-color: var(--white);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    animation: fadeIn var(--animation-slow) ease-out;
+}
+
+/* Blog specific styles */
+.blog-post {
+    margin-bottom: 2rem;
+}
+
+.blog-post h1 {
+    font-size: 2rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--primary);
+    padding-bottom: 0.5rem;
+}
+
+.post-meta {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.post-meta .categories a {
+    color: var(--secondary);
+    text-decoration: none;
+    margin-right: 0.5rem;
+}
+
+.post-meta .categories a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation */
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+    position: relative;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--primary);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+nav a {
+    color: var(--black);
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    padding: 0.3rem 0.5rem;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+nav a:hover, nav a.active {
+    color: var(--primary);
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 1px;
+    background-color: var(--primary);
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after, nav a.active::after {
+    width: 80%;
+}
+
+/* Link styling */
+a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--secondary);
+}
+
+/* Haiku and potential unused styles */
+.haiku-text,
+.tanka-text {
+    font-family: 'Rancho', Garamond, serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+.poem {
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: var(--secondary-light);
+    border-left: 3px solid var(--secondary);
+    opacity: 0;
+    transform: translateX(30px);
+    transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+.haiku {
+    background-color: var(--secondary-light);
+    border-left: 3px solid var(--secondary);
+}
+
+.tanka {
+    background-color: var(--tertiary-light);
+    border-left: 3px solid var(--tertiary);
+}
+
+.poem.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.haiku-season {
+    text-align: right;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+    color: var(--primary);
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    transition-delay: 0.3s;
+}
+
+.poem.visible .haiku-season {
+    opacity: 1;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    border-top: 1px solid var(--primary);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 1.5rem;
+    }
+    
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+    }
+}
+
+/* Utility Classes */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.latest-posts .post-preview {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-light);
+}
+
+/* Code Blocks */
+pre {
+    background-color: var(--secondary-light);
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+code {
+    font-family: 'PT Mono', 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+    color: var(--black);
+}
