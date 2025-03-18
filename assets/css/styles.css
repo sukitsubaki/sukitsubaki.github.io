@@ -78,6 +78,8 @@
     --black: #121212;
     --white: #fefefe;
     --gray: #848884;
+    --dark-gray: #36454f
+    --light-gray: #e5e4e2;
     --border-light: #f0f0f0;
     
     /* Animation speeds */
@@ -100,6 +102,11 @@ body {
 
 p {
     margin: 1rem 0;
+}
+
+h1,
+.latest-posts h2 {
+    border-bottom: 1px solid var(--primary);
 }
 
 /* Text styling */
@@ -138,14 +145,13 @@ p {
 
 /* Post meta */
 .post-meta {
+    background-color: var(--light-gray);
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 0.9rem;
-    color: #666;
-    margin-bottom: 1.5rem;
-    border-bottom: 1px solid var(--border-light);
-    padding-bottom: 0.5rem;
+    margin: 1.5rem 0;
+    padding: 1rem;
 }
 
 .meta-info {
@@ -280,7 +286,6 @@ a:hover {
 .intro-container h1 {
     font-family: monospace;
     font-weight: normal;
-    border-bottom: 1px solid var(--primary);
 }
 
 /* Haiku and potential unused styles */
