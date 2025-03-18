@@ -4,7 +4,7 @@ title: Workflow Scaline
 permalink: /workflow-scaling/
 ---
 
-# Workflow Scaling
+## Workflow Scaling
 
 {% for post in site.posts %}
   {% if post.scope == "Workflow Scaling" %}
