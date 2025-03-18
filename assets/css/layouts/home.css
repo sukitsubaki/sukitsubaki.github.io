@@ -5,6 +5,7 @@
 }
 
 .home-container__title {
+    padding-left: var(--spaxing-sm);
     border-bottom: 1px solid var(--color-primary);
 }
 
@@ -42,5 +43,21 @@
 
 .latest-posts__title {
     border-bottom: 1px solid var(--color-primary);
+    padding-left: var(--spaxing-sm);
     padding-bottom: var(--spacing-xs);
+}
+
+.license-container {
+    background-color: var(--color-secondary-light);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    margin-top: var(--spacing-lg);
+}
+
+.license-container__title {
+    border-bottom: 1px solid var(--color-primary);
+    padding-bottom: var(--spacing-xs);
+}
+
+.license-container__text {
+
 }
