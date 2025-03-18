@@ -64,6 +64,7 @@
 }
 
 .post-list__item {
+    margin-left: var(--spacing-xs);
     margin-bottom: 0;
 }
 
