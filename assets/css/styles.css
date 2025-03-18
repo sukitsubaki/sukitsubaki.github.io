@@ -228,6 +228,7 @@ a:hover {
     color: var(--secondary);
 }
 
+/* Container styling */
 .about-me {
     display: flex;
     gap: 2rem;
@@ -251,6 +252,13 @@ a:hover {
 
 .about-me-image img {
     width: 200px;
+}
+
+.intro-container h1 {
+    font-family: monospace;
+    font-weight: normal;
+    border-bottom: 1px solid var(--primary);
+}
 
 /* Haiku and potential unused styles */
 .haiku-text,
