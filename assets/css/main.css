@@ -7,13 +7,11 @@
 
 /* Layout Styles */
 @import 'layouts/home.css';
-@import 'layouts/content.css';
 
 /* Module Styles */
 @import 'modules/header.css';
 @import 'modules/navigation.css';
 @import 'modules/post.css';
-@import 'modules/blog.css';
 @import 'modules/footer.css';
 
 /* Code Highlighting */
