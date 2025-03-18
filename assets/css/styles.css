@@ -88,7 +88,7 @@
 }
 
 body {
-    font-family: 'PTSans', 'Trebuchet MS', Arial, sans-serif;
+    font-family: 'PTSans', 'Trebuchet MS', Helvetica, Arial, sans-serif;
     text-align: justify;
     line-height: 1.6;
     color: var(--black);
@@ -192,7 +192,7 @@ nav a {
     text-decoration: none;
     font-size: 0.9rem;
     letter-spacing: 1px;
-    padding: 0.3rem 0.5rem;
+    padding: 0rem 0.5rem;
     transition: color 0.3s ease;
     position: relative;
 }
@@ -346,7 +346,7 @@ pre {
 }
 
 code {
-    font-family: 'PT Mono', 'Courier New', Courier, monospace;
+    font-family: 'PTMono', 'Courier New', Courier, monospace;
     font-size: 0.9rem;
     color: var(--black);
 }
