@@ -38,6 +38,7 @@
 
 .latest-posts {
     margin-top: var(--spacing-lg);
+    text-align: left;
 }
 
 .latest-posts__title {
