@@ -101,19 +101,19 @@ body {
 
 /* Text styling */
 .weight-normal {
-    font-weight: normal
+    font-weight: normal !important;
 }
 
 .weight-bold {
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 .text-center {
-    text-align: center;
+    text-align: center !important;
 }
 
 .text-right {
-    text-align: right;
+    text-align: right !important;
 }
 
 /* Blog specific styles */
