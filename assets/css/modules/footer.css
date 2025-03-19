@@ -26,3 +26,17 @@
     color: var(--color-secondary);
     text-decoration: none;
 }
+
+.site-footer__meta {
+    font-family: var(--text-monospace);
+    color: var(--light-gray);
+    margin-top: var(--spacing-xs);
+}
+
+site-footer__meta a {
+    color: var(--dark-gray);
+}
+
+site-footer__meta a:hover {
+    color: var(--secondary);
+}
