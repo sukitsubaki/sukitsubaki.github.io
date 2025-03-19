@@ -18,11 +18,11 @@
 }
 
 .site-footer__link {
-    color: var(--color-secondary);
+    color: var(--color-primary);
     transition: color var(--transition-standard);
 }
 
 .site-footer__link:hover {
-    color: var(--color-primary);
+    color: var(--color-secondary);
     text-decoration: none;
 }
