@@ -80,6 +80,14 @@
     margin-left: var(--spacing-xs);
 }
 
+.post-list__title a {
+    color: var(--color-secondary);
+}
+
+.post-list__title a:hover {
+    color: var(--color-primary);
+}
+
 .post-list__scope {
     margin-left: var(--spacing-xs);
 }
