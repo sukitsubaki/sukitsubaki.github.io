@@ -38,6 +38,6 @@
     color: var(--color-secondary);
 }
 
-.site-meta__link a:hover {
+.site-meta__link:hover {
     color: var(--color-black);
 }
