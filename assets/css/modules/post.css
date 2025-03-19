@@ -93,13 +93,12 @@
 
 .post-list__scope a {
     font-size: var(--text-xs);
-    background-color: var(--color-primary-light);
+    background-color: var(--color-border-light);
     padding: var(--spacing-xxs) var(--spacing-xs);
     border-radius: 0;
-    color: var(--color-primary);
+    color: var(--color-gray);
 }
 
 .post-list__scope a:hover {
-    background-color: var(--color-primary);
-    color: var(--color-white);
+    color: var(--color-dark-gray);
 }
