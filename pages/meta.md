@@ -20,4 +20,4 @@ permalink: /meta/
 
 ## Debug Information
 - Environment: {{ jekyll.environment }}
-- URL: {{ site.url }}
+- URL: <a href="{{ site.url }}">{{ site.url }}</a>
