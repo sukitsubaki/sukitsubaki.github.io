@@ -17,7 +17,7 @@
 
 /* Post Meta Information */
 .post-meta {
-    background-color: var(--color-light-gray);
+    background-color: var(--color-border-light);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,13 +25,13 @@
     margin: var(--spacing-md) 0;
     padding: var(--spacing-sm);
 }
-
-.post-meta__info {
+/* not used
+.post-meta__info { 
     display: flex;
     flex-wrap: wrap;
     gap: var(--spacing-sm);
 }
-
+*/
 .post-meta__published,
 .post-meta__updated,
 .post-meta__scope {
