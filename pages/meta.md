@@ -20,6 +20,4 @@ permalink: /meta/
 
 ## Debug Information
 - Environment: {{ jekyll.environment }}
-- Base URL: {{ site.baseurl }}
 - URL: {{ site.url }}
-- Time Zone: {{ site.timezone }}
