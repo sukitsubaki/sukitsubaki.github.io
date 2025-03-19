@@ -96,7 +96,7 @@
     background-color: var(--color-border-light);
     padding: var(--spacing-xxs) var(--spacing-xs);
     border-radius: 0;
-    color: var(--color-gray);
+    color: var(--color-black);
 }
 
 .post-list__scope a:hover {
