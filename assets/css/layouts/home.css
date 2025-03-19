@@ -14,6 +14,7 @@
 
 .intro-container__about {
     display: flex;
+    flex-direction: row-reverse;
     gap: var(--spacing-lg);
     align-items: flex-start;
     margin-top: var(--spacing-sm);
@@ -86,6 +87,5 @@
     .intro-container__text {
         flex: none;
         width: 100%;
-        text-align: center;
     }
 }
