@@ -68,6 +68,14 @@
     margin-bottom: 0;
 }
 
+.post-list__item a {
+    color: var(--color-secondary);
+}
+
+.post-list__item a:hover {
+    color: var(--color-primary);
+}
+
 .post-list__title {
     margin-left: var(--spacing-xs);
 }
