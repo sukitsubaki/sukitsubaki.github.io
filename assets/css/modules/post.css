@@ -1,10 +1,4 @@
-/* Individual Post Title Styles */
-#system-architecture,
-#workflow-scaling,
-#problem-solving,
-#documentation {
-    border-bottom: 1px solid var(--color-primary);
-}
+/* Individual Post Title Styles in assets/css/base/individual.css */
 
 /* Post Module Styles */
 .blog-post {
