@@ -1,0 +1,8 @@
+/* Individual Title Styles */
+#system-architecture,
+#workflow-scaling,
+#problem-solving,
+#documentation,
+#meta-insights {
+    border-bottom: 1px solid var(--color-primary);
+}
