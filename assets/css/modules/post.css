@@ -96,9 +96,9 @@
     background-color: var(--color-border-light);
     padding: var(--spacing-xxs) var(--spacing-xs);
     border-radius: 0;
-    color: var(--color-black);
+    color: var(--color-gray);
 }
 
 .post-list__scope a:hover {
-    color: var(--color-dark-gray);
+    color: var(--color-black);
 }
