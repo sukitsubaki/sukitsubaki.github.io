@@ -27,16 +27,17 @@
     text-decoration: none;
 }
 
-.site-footer__meta {
+.site-footer-meta {
     font-family: var(--font-monospace);
+    background-color: var(--color-border-light);
     color: var(--color--gray);
     margin-top: var(--spacing-xs);
 }
 
-site-footer__meta a {
-    color: var(--dark-gray);
+site-footer-meta__link {
+    color: var(--color-secondary);
 }
 
-site-footer__meta a:hover {
-    color: var(--secondary);
+site-footer-meta__link a:hover {
+    color: var(--color-black);
 }
