@@ -27,17 +27,17 @@
     text-decoration: none;
 }
 
-.site-footer-meta {
+.site-meta {
     font-family: var(--font-monospace);
     background-color: var(--color-border-light);
     color: var(--color--gray);
     margin-top: var(--spacing-xs);
 }
 
-site-footer-meta__link {
+.site-meta__link {
     color: var(--color-secondary);
 }
 
-site-footer-meta__link a:hover {
+.site-meta__link a:hover {
     color: var(--color-black);
 }
