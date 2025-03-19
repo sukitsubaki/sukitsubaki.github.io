@@ -9,23 +9,17 @@ This blog represents an ongoing exploration of how technology, processes, and hu
 
 ## Key Topics & Insights
 
-### 1. Workflow Scaling
-Exploring how processes and systems can grow without becoming unnecessarily complex. The goal is to develop adaptable workflows that expand gracefully, maintaining clarity and efficiency as they evolve, rather than collapsing under their own weight.
+**1. Workflow Scaling:** Exploring how processes and systems can grow without becoming unnecessarily complex. The goal is to develop adaptable workflows that expand gracefully, maintaining clarity and efficiency as they evolve, rather than collapsing under their own weight.
 
-### 2. Problem-Solving Strategies
-Diving into creative approaches for tackling challenges, understanding that the most elegant solutions often come from clear thinking rather than complicated techniques. By breaking down complex problems and examining them from multiple perspectives, we can develop more innovative and effective solutions.
+**2. Problem-Solving Strategies:** Diving into creative approaches for tackling challenges, understanding that the most elegant solutions often come from clear thinking rather than complicated techniques. By breaking down complex problems and examining them from multiple perspectives, we can develop more innovative and effective solutions.
 
-### 3. Documentation Practices
-Investigating how we capture, share, and evolve knowledge in ways that are both meaningful and sustainable. Documentation is more than just record-keeping—it's a living conversation that bridges understanding, preserves context, and enables collaborative learning across time and teams.
+**3. Documentation Practices:** Investigating how we capture, share, and evolve knowledge in ways that are both meaningful and sustainable. Documentation is more than just record-keeping—it's a living conversation that bridges understanding, preserves context, and enables collaborative learning across time and teams.
 
-### 4. System Design Principles 
-Examining how to create technical systems that are simple, resilient, and adaptable. This involves understanding the delicate balance between functionality and complexity, and designing systems that can evolve without becoming unwieldy or difficult to maintain.
+**4. System Design Principles:** Examining how to create technical systems that are simple, resilient, and adaptable. This involves understanding the delicate balance between functionality and complexity, and designing systems that can evolve without becoming unwieldy or difficult to maintain.
 
-### 5. Technological Mindfulness
-Reflecting on our relationship with technology—how we can use tools intentionally, maintain focus, and prevent digital overwhelm. It's about creating a more conscious and balanced approach to technology that serves our goals rather than distracting or controlling us.
+**5. Technological Mindfulness:** Reflecting on our relationship with technology—how we can use tools intentionally, maintain focus, and prevent digital overwhelm. It's about creating a more conscious and balanced approach to technology that serves our goals rather than distracting or controlling us.
 
-### 6. Learning and Adaptation
-Exploring strategies for continuous learning, managing uncertainty, and developing the capacity to grow and change in a rapidly evolving technological landscape. This topic delves into how we can cultivate resilience, curiosity, and a growth mindset in our professional journeys.
+**6. Learning and Adaptation:** Exploring strategies for continuous learning, managing uncertainty, and developing the capacity to grow and change in a rapidly evolving technological landscape. This topic delves into how we can cultivate resilience, curiosity, and a growth mindset in our professional journeys.
 
 ## Writing Approach
 
@@ -53,7 +47,7 @@ Exploring strategies for continuous learning, managing uncertainty, and developi
 ## License
 
 * This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-* Texts are licensed under [Creative Commons BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/)
+* Texts are licensed under Creative Commons [BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/)
 
 **Additional license information:**
 * The cherry blossom [favicon](assets/favicon) is licensed under CC-BY 4.0 from Twitter Twemoji
