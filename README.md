@@ -1,5 +1,3 @@
-![Preview](/assets/images/preview.jpg "Preview of the Website")
-
 # Suki Tsubaki - Personal Blog about Process Design
 Welcome to my digital garden of technical thinking—a minimalist exploration of workflow, problem-solving, and sustainable approaches to technology and creativity. This blog is a personal journey of understanding how we can work more intentionally, design systems more thoughtfully, and navigate the complex landscape of modern technology with clarity and purpose.
 
